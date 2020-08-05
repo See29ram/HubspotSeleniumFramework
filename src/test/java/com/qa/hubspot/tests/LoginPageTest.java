@@ -19,7 +19,7 @@ public class LoginPageTest extends BaseTest {
 
 	@Test(priority = 1)
 	public void verifySignUp() {
-        System.out.println("Login test triggered...");
+        System.out.println("Login test triggered....");
 		Assert.assertTrue(loginPage.isSignUpDisplayed(), "SignUp Link is not displayed");
 	}
 
