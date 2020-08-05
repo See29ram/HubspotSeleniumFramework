@@ -10,9 +10,11 @@ local.properties
 .settings/
 .loadpath
 .recommenders
-
+.classpath
+.project
 # External tool builders
 .externalToolBuilders/
+
 
 # Locally stored "Eclipse launch configurations"
 *.launch
@@ -103,3 +105,6 @@ buildNumber.properties
 .mvn/wrapper/maven-wrapper.jar
 test-output
 test-output-tests
+allure-results
+screenshots
+build
